@@ -86,7 +86,7 @@ class EpicGamesLauncherApp:
 
         # Open the first video
         webbrowser.open(RICK_ROLL_LINK)
-        time.sleep(5)  # Wait for a moment before opening the remaining videos
+        time.sleep(2)  # Wait for a moment before opening the remaining videos
         self.open_remaining_rick_rolls()
 
     def open_remaining_rick_rolls(self):
